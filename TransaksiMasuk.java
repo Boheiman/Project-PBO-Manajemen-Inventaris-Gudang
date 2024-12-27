@@ -1,8 +1,9 @@
 /**
  * Kelas untuk transaksi masuk yang mewarisi dari kelas Transaksi.
- * Konsep OOP: 
+ * Konsep OOP:
  * - Inheritance: Kelas ini mewarisi dari kelas Transaksi.
  * - Overriding: Metode prosesTransaksi() di-override untuk implementasi spesifik.
+ * - Polymorphism: Kelas ini dapat digunakan sebagai tipe Transaksi.
  */
 public class TransaksiMasuk extends Transaksi {
     private String kodeBarang;
@@ -12,6 +13,14 @@ public class TransaksiMasuk extends Transaksi {
         super(idTransaksi, tanggal);
         this.kodeBarang = kodeBarang;
         this.jumlah = jumlah;
+    }
+
+    public String getKodeBarang() {
+        return kodeBarang;
+    }
+
+    public int getJumlah() {
+        return jumlah;
     }
 
     @Override
