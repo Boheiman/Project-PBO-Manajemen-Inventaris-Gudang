@@ -9,12 +9,32 @@ public class Pemasok {
         this.kontak = kontak;
     }
 
-    public String getIdPemasok() { return idPemasok; }
-    public void setIdPemasok(String idPemasok) { this.idPemasok = idPemasok; }
+    public String getIdPemasok() {
+        return idPemasok;
+    }
 
-    public String getNamaPemasok() { return namaPemasok; }
-    public void setNamaPemasok(String namaPemasok) { this.namaPemasok = namaPemasok; }
+    public void setIdPemasok(String idPemasok) {
+        this.idPemasok = idPemasok;
+    }
 
-    public String getKontak() { return kontak; }
-    public void setKontak(String kontak) { this.kontak = kontak; }
+    public String getNamaPemasok() {
+        return namaPemasok;
+    }
+
+    public void setNamaPemasok(String namaPemasok) {
+        this.namaPemasok = namaPemasok;
+    }
+
+    public String getKontak() {
+        return kontak;
+    }
+
+    public void setKontak(String kontak) {
+        this.kontak = kontak;
+    }
+
+    @Override
+    public String toString() {
+        return "ID Pemasok: " + idPemasok + ", Nama Pemasok: " + namaPemasok + ", Kontak: " + kontak;
+    }
 }
