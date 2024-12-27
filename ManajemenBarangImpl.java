@@ -70,4 +70,5 @@ public class ManajemenBarangImpl implements ManajemenBarang {
             System.out.println("Gagal membaca data dari file: " + e.getMessage());
         }
     }
+    
 }
