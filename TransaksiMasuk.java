@@ -1,6 +1,6 @@
 /**
  * Kelas untuk transaksi masuk yang mewarisi dari kelas Transaksi.
- * Konsep OOP:
+ * Konsep OOP: 
  * - Inheritance: Kelas ini mewarisi dari kelas Transaksi.
  * - Overriding: Metode prosesTransaksi() di-override untuk implementasi spesifik.
  */
