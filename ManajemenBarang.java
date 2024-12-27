@@ -5,4 +5,5 @@ public interface ManajemenBarang {
     void perbaruiBarang(String kodeBarang, Barang barangBaru);
     void hapusBarang(String kodeBarang);
     ArrayList<Barang> daftarBarang();
+    
 }
