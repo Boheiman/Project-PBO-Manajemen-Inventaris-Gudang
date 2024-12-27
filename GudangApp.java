@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.awt.Color; // Import for Color
 import java.awt.FlowLayout; // Import for FlowLayout
 import java.util.ArrayList;
-
+ 
 public class GudangApp {
     private ManajemenBarangImpl manajemenBarang = new ManajemenBarangImpl();
     private ManajemenPemasokImpl manajemenPemasok = new ManajemenPemasokImpl();
