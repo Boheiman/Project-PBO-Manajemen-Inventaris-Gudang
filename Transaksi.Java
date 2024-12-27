@@ -5,7 +5,7 @@
  * - Abstract Class: Kelas ini tidak dapat diinstansiasi dan harus diwarisi oleh kelas lain.
  */
 public abstract class Transaksi {
-    private String idTransaksi;
+    private String idTransaksi; 
     private String tanggal;
 
     public Transaksi(String idTransaksi, String tanggal) {
