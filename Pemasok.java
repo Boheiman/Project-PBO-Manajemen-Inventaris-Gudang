@@ -38,3 +38,4 @@ public class Pemasok {
         return "ID Pemasok: " + idPemasok + ", Nama Pemasok: " + namaPemasok + ", Kontak: " + kontak;
     }
 }
+
